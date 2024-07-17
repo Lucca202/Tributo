@@ -1,3 +1,6 @@
+:root {
+    --color-header:#eeeae7;
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,10 +9,16 @@
 #cabecalho-de-inicio {
     width: 100%;
     display: grid;
+    background-color: var(--color-header);
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
 }
 
 #logo {
-    width: 15%;
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    justify-self: left;
 }
