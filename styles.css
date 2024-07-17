@@ -45,3 +45,16 @@
     border-radius: 30px;
     color: var(--color-header)
 }
+
+#documento-principal {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.paragrafos{
+    width: 60%;
+    font-size: 25px;
+}
