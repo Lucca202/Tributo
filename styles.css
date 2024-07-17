@@ -1,5 +1,6 @@
 :root {
     --color-header:#eeeae7;
+    --color-link: #483d43;
 }
 *{
     margin: 0;
@@ -11,9 +12,9 @@
     display: grid;
     background-color: var(--color-header);
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 0.5fr;
     align-items: center;
-    justify-items: center;
+    justify-items: end;
 }
 
 #logo {
@@ -21,4 +22,13 @@
     height: 200px;
     margin-left: 20px;
     justify-self: left;
+}
+
+.nav-link{
+    font-size: 40px;
+    text-decoration: none;
+    color: var(--color-link);
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    justify-self: end;
 }
