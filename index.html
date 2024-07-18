@@ -56,19 +56,19 @@
                 <li class="item-curiosidade">Ela recebeu apoio financeiro por duas mulheres que apoiavam seu trabalho</li>
             </ol>
         </section>
-        <form action="" method="post"> 
-            <fieldset>
-                <legend>Nos avalie!</legend>
-                <label for="1"></label><input id="1" type="radio" name="ranking" value="1"> 1</label>
-                <label for="2"></label><input id="2" type="radio" name="ranking" value="2"> 2</label>
-                <label for="3"></label><input id="3"  type="radio" name="ranking" value="3"> 3</label>
-                <label for="4"></label><input id="4"  type="radio" name="ranking" value="4"> 4</label>
-                <label for="5"></label><input id="5" type="radio" name="ranking" value="5"> 5</label>   
+        <form id="formulario-sobre-tributo" action="" method="post"> 
+            <fieldset class="campo-separador-form">
+                <legend id="legenda-form">Nos avalie!</legend>
+                <label for="1"></label><input id="1" class="inputs-form" type="radio" name="ranking" value="1"> 1</label>
+                <label for="2"></label><input id="2" class="inputs-form" type="radio" name="ranking" value="2"> 2</label>
+                <label for="3"></label><input id="3" class="inputs-form" type="radio" name="ranking" value="3"> 3</label>
+                <label for="4"></label><input id="4" class="inputs-form" type="radio" name="ranking" value="4"> 4</label>
+                <label for="5"></label><input id="5" class="inputs-form" type="radio" name="ranking" value="5"> 5</label>   
             </fieldset>    
-            <fieldset>
-                <textarea type="text" name="Adição do usuário" id="texto do usuário" placeholder="Adicione algo sobre o tributo"></textarea>
+            <fieldset class="campo-separador-form">
+                <textarea type="text" name="Adição do usuário" id="texto-do-usuario" placeholder="Adicione algo sobre o tributo"></textarea>
             </fieldset>
-            <button>Enviar</button>
+            <input type="submit" value="Enviar" name="botão-envio-forms" id="botao-submissao">
         </form>
         </main>
         <footer>
