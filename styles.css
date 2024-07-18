@@ -1,6 +1,7 @@
 :root {
     --color-header:#eeeae7;
     --color-link: #483d43;
+    --color-green: 
 }
 *{
     margin: 0;
@@ -54,6 +55,16 @@
     align-items: center;
 }
 
+#imagem-Curie, #imagem-Curie-2, #imagem-Curie-3{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+#caption-das-imagens {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
 .paragrafos{
     width: 60%;
     font-size: 25px;
