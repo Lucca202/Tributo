@@ -70,6 +70,11 @@
     transform: scale(1.01);
  
 }
+
+#introducao-historia {
+    font-size: 40px;
+    margin: 20px 0 10px 0;
+}
 #caption-das-imagens {
     text-align: center;
     font-style: italic;
