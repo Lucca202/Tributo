@@ -180,14 +180,14 @@
 
 #container-referencias {
    justify-self: end;
-   margin: 5px;
+   margin: 10px 5px 10px 5px;
    padding: 5px;
    text-align: center;
    font-size: 25px;
 }
 #address {
     justify-self: start;
-    margin: 5px;
+    margin: 10px 5px 10px 5px;
     padding: 5px;
     font-size: 25px;
     text-align: center;
