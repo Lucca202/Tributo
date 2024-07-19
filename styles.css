@@ -57,11 +57,18 @@
 }
 #introducao-primaria {
     font-size: 50px;
+    margin: 20px 0 10px 0;
 }
 #imagem-Curie, #imagem-Curie-2, #imagem-Curie-3{
     width: 300px;
     height: 300px;
     object-fit: cover;
+    transition: linear 0.2s;
+}
+#imagem-Curie:hover,#imagem-Curie-2:hover,#imagem-Curie-3:hover {
+    cursor:pointer;
+    transform: scale(1.01);
+ 
 }
 #caption-das-imagens {
     text-align: center;
@@ -72,7 +79,7 @@
     width: 60%;
     font-size: 25px;
     padding: 10px;
-    margin: 10px 0 10px 0;
+    margin: 5px 0 10px 0;
 }
 
 #curiosidades {
@@ -84,6 +91,7 @@
 #titulo-curiosidades {
     font-size: 40px;
     text-align: center;
+    margin: 10px;
 }
 
 #lista-ordenada-curiosidades {
@@ -92,6 +100,10 @@
     margin: auto;
     list-style-type:circle;    
     font-size: 25px;
+}
+.item-curiosidade{
+    padding: 5px;
+    margin: 5px 
 }
 
 #formulario-sobre-tributo {
@@ -115,7 +127,6 @@
 #legenda-form {
     font-size: 25px;
     text-align: center;
-    
 }
 .inputs-form {
     width: 50px;
