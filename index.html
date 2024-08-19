@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,34 +8,54 @@
     </head>
     <body>
         <header id="cabecalho-de-inicio">
-            <img id="logo" src="/img/For_learners-removebg-preview.png" alt="Imagem da logo">
+            <div class="Logo-wrapper">
+                <span class="texto-logo acima">For Learners</span>
+                <img id="logo" src="https://th.bing.com/th/id/OIG2.OxkKnPLD2tl8a9TWRvRf?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="Imagem da logo">
+                <span class="texto-logo abaixo">desde 2024</span>
+            </div>
             <nav id="nav-sobre">
                 <a href="" class="nav-link">Sobre</a>
                 <a href="#cabecalho-contatos" class="nav-link">Contatos</a>
+                <a href="" class="nav-link">Home</a>
+                <a href="" class="nav-link">More</a>
             </nav>
+            <label class="busca-e-icon" for="busca"><span class="wrapper-icon"><input id="busca" name="input-busca" type="search"> <lord-icon
+    class="lord-icon"
+    src="https://cdn.lordicon.com/ewoezmtb.json"
+    trigger="in"
+    delay="1500"
+    stroke="bold"
+    state="in-reveal"
+    colors="primary:#483d43,secondary:#878d5d"
+>
+</lord-icon></span></label>
         </header>
-        <main id="documento-principal">
-            <h1 id="introducao-primaria">Tributo a Marie Curie</h1>
-            <p class="paragrafos">
+        <main id="main">
+        <section class="secao bloco-inicial"> 
+            <h1 id="title" class="titulo h1">Tributo a Marie Curie</h1>
+            <p id="tribute-info" class="paragrafos">
                 &emsp; Em memoria a Marie Curie, cá está um pequeno tributo. Agradecendo-a pela sua coragem, força e determinação. Indo contra os
             valores de sua época e monstrando ao mundo a sua capacidade e principalmente a capacidade das mulheres, que naquele tempo eram rebaixadas.
             Com seus feitos você obteve avanços expressivos na sociedade, tanto nos quesitos tecnicos e tecnológicos, quanto no social.
             Portanto, nossos sinceros agradecimentos.
             </p>
-                <figure id="figure-1">
-                    <img id="imagem-Curie" src="/img/marie-curie-848x480-1.png" 
-                    alt="Foto de uma mulher sentada com a mão apoiada ao rosto em cores preto e branco. Representação de Marie Curie" >
+        </section>
+        <section class="secao bloco-imagens">
+            <figure id="img-div" class="wrapper-imagens">
+                    <img id="image" class="img primeira-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2A21H3MbaL41yXO7vdtyWgmQEG9eI4mGuTg&s" alt="Foto de uma mulher sentada com a mão apoiada ao rosto em cores preto e branco. Representação de Marie Curie" >
                    
-                    <img id="imagem-Curie-2" src="/img/Marie_Curie_c1920.jpg" 
+                    <img id="imagem-Curie-2" class="img segunda-imagem" src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-50694623.jpg" 
                     alt="Foto de uma mulher sentada apenas mostrando seu rosto em cores preto e branco. Representação de Marie Curie" >
                 
-                    <img id="imagem-Curie-3" src="/img/MarieCurie-quimica.jfif" 
+                    <img id="imagem-Curie-3" class="img terceira-imagem"src="https://cdn.britannica.com/10/74610-004-D3A690D9.jpg" 
                     alt="Foto de uma mulher segurando um objeto de vidro usado na quimica em cores preto e branco. Representação de Marie Curie" >
-                    <figcaption id="caption-das-imagens">
-                        Imagem de Marie Curie 
-                    </figcaption>
-                </figure>
-            <h2 id="introducao-historia">Breve Historia de Marie Curie</h2>
+                <figcaption id="img-caption" class="caption-imagens">
+                    Imagem Marie Curie
+                </figcaption>
+            </figure>
+        </section>
+        <section class="secao bloco-historia">
+            <h2 id="introducao-historia" class="titulo h2">Breve Historia de Marie Curie</h2>
             <p class="paragrafos"> 
             &emsp; Nascida em Varsóvia, Polônia. Marie Curie foi a primeira Mulher e pessoa a ganhar dois prêmios Nobel,sendo um em física e outro na matemática, a sua contribuição para 
             a sociedade foi imensa, trazendo inovações e conhecimento para o mundo, a qual teve influência em diversos campos da sociedade, desde a física até a saúde. Seu Doutorado
@@ -54,29 +74,32 @@
                 Sua persistência e contribuição foram importantíssimas para o avanço da sociedade e a inclusão das mulheres nos meios acadêmicos.
                 Marie faleceu em em 1934, vitíma de Leucemia.
             </p>
-            <section id="curiosidades">
-            <h2 id="titulo-curiosidades">Curiosidades de Curie</h2>
-            <ol id="lista-ordenada-curiosidades">
-                <li class="item-curiosidade">Seu nome de batismo era Maria Sklodovska</li>
-                <li class="item-curiosidade">Foi educada em segredo pela Flying University, uma instituição secreta que educava mulheres </li>
-                <li class="item-curiosidade">Os cadernos dela ainda são super radioativos</li>
-                <li class="item-curiosidade">Ela recebeu apoio financeiro por duas mulheres que apoiavam seu trabalho</li>
+        <section class="secao curiosidades">
+            <h3 class="titulo h3">Curiosidades de Curie</h3>
+            <ol id="lista-ordenada-curiosidades" class="listas-ordenadas curiosidades-lista">
+                <li class="item-curiosidade primeira-cur">Seu nome de batismo era Maria Sklodovska</li>
+                <li class="item-curiosidade segunda-cur">Foi educada em segredo pela Flying University, uma instituição secreta que educava mulheres </li>
+                <li class="item-curiosidade terceira-cur">Os cadernos dela ainda são super radioativos</li>
+                <li class="item-curiosidade quarta-cur">Ela recebeu apoio financeiro por duas mulheres que apoiavam seu trabalho</li>
+        <li class="item-curiosidade quinta-cur"><a  id="tribute-link" class="link-referencias" href="https://revistagalileu.globo.com/Ciencia/noticia/2017/11/3-curiosidades-para-voce-conhecer-o-legado-da-cientista-marie-curie.html" target="_blank">Revista Galileu</a></li>
             </ol>
         </section>
-        <form id="formulario-sobre-tributo" action="" method="post"> 
-            <fieldset class="campo-separador-form">
-                <legend id="legenda-form">Nos avalie!</legend>
-                <label class="labels-form" for="1"></label><input id="1" class="inputs-form" type="radio" name="ranking" value="1"><span class="texto-input">1</span></label>
-                <label class="labels-form" for="2"></label><input id="2" class="inputs-form" type="radio" name="ranking" value="2"><span class="texto-input">2</span></label>
-                <label class="labels-form" for="3"></label><input id="3" class="inputs-form" type="radio" name="ranking" value="3"><span class="texto-input">3</span></label>
-                <label class="labels-form" for="4"></label><input id="4" class="inputs-form" type="radio" name="ranking" value="4"><span class="texto-input">4</span></label>
-                <label class="labels-form" for="5"></label><input id="5" class="inputs-form" type="radio" name="ranking" value="5"><span class="texto-input">5</span></label>   
-            </fieldset>    
-            <fieldset class="campo-separador-form">
-                <textarea type="text" name="Adição do usuário" id="texto-do-usuario" cols="100px" rows="5" placeholder="Adicione algo sobre o tributo"></textarea>
-            </fieldset>
-            <input type="submit" value="Enviar" name="botão-envio-forms" id="botao-submissao">
-        </form>
+        <section class="secao formulario">
+            <form id="formulario-sobre-tributo" action="" method="post"> 
+                <fieldset class="campo-separador-form avaliacao">
+                    <legend id="legenda-form" class="titulo legend">Nos avalie!</legend>
+                    <label class="labels-form" for="rank-1"></label><input id="rank-1" class="inputs-form-radio" type="radio" name="ranking" value="rank-1"><span class="txt-label">1</span></label>
+                    <label class="labels-form" for="rank-2"></label><input id="rank-2" class="inputs-form-radio" type="radio" name="ranking" value="rank-2"><span class="txt-label">2</span></label>
+                    <label class="labels-form" for="rank-3"></label><input id="rank-3" class="inputs-form-radio" type="radio" name="ranking" value="rank-3"><span class="txt-label">3</span></label>
+                    <label class="labels-form" for="rank-4"></label><input id="rank-4" class="inputs-form-radio" type="radio" name="ranking" value="rank-4"><span class="txt-label">4</span></label>
+                    <label class="labels-form" for="rank-5"></label><input id="rank-5" class="inputs-form-radio" type="radio" name="ranking" value="rank-5"><span class="txt-label">5</span></label>   
+                </fieldset>    
+                <fieldset class="campo-separador-form cometario">
+                    <textarea type="text" name="comentario-submissao-usuario" id="texto-do-usuario" placeholder="Adicione algo sobre o tributo"></textarea>
+                </fieldset>
+                <input type="submit" value="Enviar" name="botão-envio-forms" id="botao-submissao">
+            </form>
+        </section>
         </main>
         <footer id="footer">
             <article id="container-referencias">
@@ -84,12 +107,12 @@
                 <a class="link-referencias" href="https://revistagalileu.globo.com/Ciencia/noticia/2017/11/3-curiosidades-para-voce-conhecer-o-legado-da-cientista-marie-curie.html" target="_blank">Revista Galileu</a>     
                 <a class="link-referencias" href="https://brasilescola.uol.com.br/quimica/maria-curie-descoberta-radioatividade.htm" target="_blank">Brasil Escola</a> 
             </article>
-            <hr id="separador-contatos-referencias">
             <address id="address">
                 <h3 id="cabecalho-contatos">Contatos</h3>
                 <a type="email" href="" class="link-referencias">Forleaners@gmail.com</a>
                 <a type="number" href="" class="link-referencias">+1 408 672 2222</a>
             </address>
         </footer>
+        <script src="https://cdn.lordicon.com/lordicon.js"></script>
     </body>
 </html>
